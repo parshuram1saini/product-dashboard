@@ -1,0 +1,19 @@
+.product-filter-container {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.progress-loader {
+    position: absolute;
+    top: 47%;
+    left: 47%;
+}
+
+.product-description {
+    @media(min-width: 768px) {
+        display: -webkit-box;
+        -webkit-line-clamp: 7;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+}
